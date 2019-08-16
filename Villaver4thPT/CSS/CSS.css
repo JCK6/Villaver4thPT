@@ -1,0 +1,249 @@
+body{
+	height: 100%;
+	margin: 0;
+	background: url(../PICTURES/BODY.png);
+
+}
+div#OUTSIDEHEAD.OUTSIDEHEAD{
+	background: url(../PICTURES/OUTSIDEHEAD.png);
+}
+div#HEAD.HEAD{
+	height: 123px;
+	width: 1920px;
+}
+div#NAV.NAV{
+	background-color: #821D8F;
+	height: 32px;
+}
+#JQUERYSLIDEEFFECT1, #JQUERYSLIDEEFFECT2{
+	text-align: left;
+	margin-top: -0.5%;
+	cursor: pointer;
+}
+div#DEFINITION.DEFINITION, p{
+	margin-left: 2%;
+	margin-right: 25%;
+	color: white;
+}
+#LOGIN{
+	height: 320px;
+	width: 600px;
+	border: double 20px;
+	border-color: green;
+	display: none;
+	float: left;
+	margin-left: 2%;
+	background-attachment: scroll;
+}
+span[name="lgin"]{
+	color: yellow;
+	font-family: papyrus;
+	margin-left: 4%;
+	font-family: lcd;
+	font-size: 50px;
+}
+span[name="l1"]{
+	color: yellow;
+	margin-left: 45%;
+	font-family: papyrus;
+}
+input[name="uname1"]{
+	margin-left: 30%;
+	padding: 10px;
+	padding-right: 85px;
+}
+span[name="l2"]{
+	color: yellow;
+	margin-left: 45%;
+	font-family: papyrus;
+}
+input[name="pass1"]{
+	margin-left: 30%;
+	padding: 10px;
+	padding-right: 85px;
+}
+ul{
+  list-style-type: none;
+  margin-top: 0.5%;
+  padding: 0;
+  float: right;
+  margin-right: 0.5%;
+}
+#LOGINACTIVE.LOGINACTIVE{
+	cursor: pointer;
+	padding: 10px;
+	margin-left: 46%;
+	padding: 10px;
+	text-align: center;
+}
+#HIDELOGIN.HIDELOGIN{
+	float: right;
+	margin-right: 4%;
+	cursor: pointer;
+}
+#FORM{
+	height: 500px;
+	width: 600px;
+	border: double 20px;
+	border-color: green;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	display: none;
+	float: right;
+	margin-right: 2%;
+	background-attachment: scroll;
+	background-repeat: no-repeat; 
+}
+span[name="sign"]{
+	font-size: 40px;
+	margin-left: 2%;
+	color: yellow;
+	font-family: papyrus;
+}
+span[name="description"]{
+	margin-left: 2%;
+	color: yellow;
+	font-family: papyrus;
+}
+span[name="userpass"]{
+	margin-left: 2%;
+	color: yellow;
+	font-family: papyrus;
+}
+input[name="uname2"]{
+	margin-left: 2%;
+	padding: 10px;
+	padding-right: 90px;
+}
+input[name="pass2"]{
+	margin-left: 2%;
+	padding: 10px;
+	padding-right: 86.5px;
+}
+span[name="participant"]{
+	margin-left: 2%;
+	color: yellow;
+	font-family: papyrus;
+}
+input[name=fname]{
+	margin-left: 2%;
+	margin-top: 0.5%;
+	padding: 10px;
+}
+input[name=mname]{
+	margin-left: 0.2%;
+	margin-top: 0.5%;
+	padding: 10px;
+}
+input[name=lname]{
+	margin-left: 0%;
+	margin-right: 2%;
+	margin-top: 0.5%;
+	padding: 10px;
+	width: 140.5px;
+}
+span[name="born"]{
+	margin-left: 2%;
+	color: yellow;
+	font-family: papyrus;
+}
+select[name=month]{
+	margin-left: 2%;
+	margin-top: 0.5%;
+	padding-left: 7px;
+	cursor: pointer;
+}
+select[name=day]{
+	margin-top: 1%;
+	padding-left: 7px;
+	cursor: pointer;
+}
+select[name=year]{
+	margin-top: 1%;
+	margin-bottom: 2%;
+	padding-left: 7px;
+	cursor: pointer;
+}
+span[name=sex]{
+	margin-left: 2%;
+	color: yellow;
+	font-family: papyrus;
+}
+input[name=gender]{
+	margin-bottom: 0.5%;
+	margin-left: 2%;
+}
+span[name=M], span[name=F], span[name=O]{
+	color: yellow;
+	font-family: papyrus;
+}
+input[name=othergender]{
+	width: 117px;
+	margin-bottom: 0.5%;
+	margin-left: 2%;
+}
+span[name="address"]{
+	margin-left: 2%;
+	color: yellow;
+	font-family: papyrus;
+}
+input[name=address]{
+	margin-left: 2%;
+	height: 20px;
+	width: 558px;
+}
+input[name="city"]{
+	margin-left: 2%;
+	height: 20px;
+	width: 269px;
+}
+input[name="state/province"]{
+	margin-left: 2%;
+	height: 20px;
+	width: 269px;
+}
+input[name="postal/zipcode"]{
+	margin-left: 2%;
+	height: 20px;
+	width: 269px;
+}
+select[name="country"]{
+	margin-left: 2%;
+	height: 20px;
+	width: 272px;
+	cursor: pointer;
+}
+span[name="email"]{
+	margin-left: 2%;
+	color: yellow;
+	font-family: papyrus;
+}
+input[name=email]{
+	margin-left: 2%;
+	margin-top: 0.5%;
+	height: 20px;
+	width: 558px;
+}
+span[name="numbermobile"]{
+	margin-left: 2%;
+	color: yellow;
+	font-family: papyrus;
+}
+input[name="buttonreset"]{
+	margin-left: 2%;
+	margin-bottom: 1%;
+	cursor: pointer;
+}
+input[name="buttonsubmit"]{
+	cursor: pointer;
+	margin-left: 8%;
+}
+input[name="mobilenumber"]{
+	margin-left: 2%;
+	width: 269px;
+}
+#HIDESIGNUP.HIDESIGNUP{
+	float: right;
+	margin-right: 2%;
+	cursor: pointer;
+}
