@@ -1,0 +1,75 @@
+/* PINFO */
+.PINFO{
+  margin-left:14.7%;
+  padding:1px 16px;
+  background-attachment: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  float: left;
+  height: 534.1px;
+  width: 1165px;
+}
+label{
+	cursor: url(/PT/CURSORS_UMBRELLA/Normal.cur),progress;
+}
+input#fname.form-control, input#add.form-control, input#email.form-control, input#MobNum.form-control{
+  cursor: url(/PT/CURSORS_UMBRELLA/Text.cur),progress;
+  width: 500px;
+  background: transparent;
+  margin-top: 5px;
+}
+input.gm, input.gf{
+  cursor: url(/PT/CURSORS_UMBRELLA/Link.cur),progress;
+  margin-left: 5px;
+}
+select[name=month], select[name=day], select[name=year]{
+  margin-top: 0.5%;
+  padding-left: 7px;
+  cursor: url(/PT/CURSORS_UMBRELLA/Link.cur),progress;
+}
+input[type=text]{
+  border: none;
+  border-bottom: 2px solid red;
+  color: gray;
+}
+
+/* Upload Image */
+#UI.UI{
+  margin-top: 30px;
+  margin-right: 100px;
+  float: right;
+  height: 128px;
+  width: 128px;
+  border: 5px solid;
+}
+.ButUpImg{
+  float: right;
+  margin-top: 170px;
+  margin-right: -295px;
+}
+
+/* CINFO */
+.CINFO{
+  margin-left:14.7%;
+  padding:1px 16px;
+  background-attachment: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  float: left;
+  height: 456.9px;
+  width: 1160px;
+  display: none;
+}
+/* E */
+
+.E{
+  margin-left:14.7%;
+  padding:1px 16px;
+  background-attachment: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  float: left;
+  height: 456.9px;
+  width: 1165px;
+  display: none;
+}
